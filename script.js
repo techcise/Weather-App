@@ -1,5 +1,5 @@
 
-let text = document.querySelector('#tempreture');
+let text = document.querySelector('#temperature');
 let locationText = document.querySelector('#location');
 let myBtn = document.querySelector('.myBtn');
 let weather = document.querySelector('#weather');
