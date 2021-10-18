@@ -7,14 +7,19 @@
 </head>
 <body>
     <div class="container">
-        <h1 id="location"></h1>
-        <h1 id="text">hello</h1>
-        <form action="/">
-            <label for="text">City</label>
-            <input class="city" type="text" required>
-            <button class="myBtn" type="submit">Click Me!</button>
-        </form>
-        <img class="weatherIcon" src="" alt="">
+        <div class="inputContainer">
+            <form class="cityInput" action="/">
+                <label id="inputLabel" for="text">City</label>
+                <input class="city" type="text" required>
+                <button class="myBtn" type="submit">Get Weather</button>
+            </form>
+        </div>
+        <div class="weatherContainer">
+            <h1 id="location"></h1>
+            <h2 id="tempreture"></h2>
+            <h2 id="weather"></h2>
+            <img class="weatherIcon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="">
+        </div>
     </div>
-</body>
+    </body>
 </html>
